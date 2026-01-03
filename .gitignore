@@ -1,0 +1,147 @@
+# 智能社团活动与财务管理系统 - Git忽略文件
+
+# 构建输出
+*.exe
+*.out
+*.o
+*.obj
+*.lib
+*.a
+*.dll
+*.so
+*.dylib
+
+# 构建目录
+build/
+bin/
+dist/
+out/
+
+# 数据文件（运行时生成）
+*.txt
+!docs/*.md
+!include/*.h
+!src/*.c
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 日志文件
+*.log
+logs/
+
+# 备份文件
+*.tar.gz
+*.zip
+backup_*/
+
+# 测试输出
+test_output/
+test_results/
+
+# 编译中间文件
+*.d
+*.gcno
+*.gcda
+*.gcov
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.log
+*.svclog
+*.scc
+
+# Xcode
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# 敏感信息
+config.ini
+secrets.json
+.env
+.env.local
+.env.*.local
+
+# 文档生成
+docs/html/
+docs/latex/
+docs/man/
+doxygen/
+
+# 包管理
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
+
+# 其他
+.cache/
+*.tgz
+*.deb
+*.rpm
