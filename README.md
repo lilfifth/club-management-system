@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![C](https://img.shields.io/badge/C-99-blue.svg)](https://en.wikipedia.org/wiki/C99)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/your-username/club-management-system/ci.yml)](https://github.com/your-username/club-management-system/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/lilfifth/club-management-system/ci.yml)](https://github.com/lilfifth/club-management-system/actions)
 
 一个功能完整的C语言社团活动与财务管理系统，提供用户管理、活动管理、财务管理、统计分析等全方位功能。
 
@@ -75,7 +75,7 @@ club-management-system/
 
 ```bash
 # 克隆项目
-git clone https://github.com/your-username/club-management-system.git
+git clone https://github.com/lilfifth/club-management-system.git
 cd club-management-system
 
 # 编译项目
@@ -97,43 +97,6 @@ make test
 # 清理构建文件
 make clean
 ```
-
-## 🚀 推送到GitHub
-
-### 快速设置Git用户信息
-
-在推送到GitHub之前，请先设置您的自定义用户名和邮箱：
-
-**Windows用户**:
-```cmd
-# 方法1: 使用自动脚本
-setup_git_config.bat
-
-# 方法2: 手动设置
-git config --global user.name "您的自定义用户名"
-git config --global user.email "your-email@example.com"
-```
-
-**其他系统**:
-```bash
-git config --global user.name "您的自定义用户名"
-git config --global user.email "your-email@example.com"
-```
-
-### 推送步骤
-
-```bash
-# 1. 初始化仓库
-git init
-git add .
-git commit -m "Initial commit: 智能社团活动与财务管理系统"
-
-# 2. 创建GitHub仓库并推送
-git remote add origin https://github.com/您的用户名/club-management-system.git
-git push -u origin main
-```
-
-详细的GitHub推送指南请查看 [`GITHUB_SETUP.md`](GITHUB_SETUP.md) 文件。
 
 ## 📖 使用指南
 
@@ -222,7 +185,7 @@ make test
 ## 📞 联系方式
 
 - 项目维护者: 智能社团管理系统开发团队
-- 项目主页: https://github.com/your-username/club-management-system
+- 项目主页: https://github.com/lilfifth/club-management-system
 
 ---
 
